@@ -1,0 +1,11 @@
+import pandas as pd
+
+# Define the sprint plan as a DataFrame
+sprint_data = [
+    {"Sprint": "Sprint 0", "Epic": "Project Setup & Research", "Task": "Define MVP scope and success metrics", "Label": "Planning"},
+    {"Sprint": "Sprint 0", "Epic": "Project Setup & Research", "Task": "Conduct user interviews with underrepresented patients and providers", "Label": "UX/Research"},
+    {"Sprint": "Sprint 0", "Epic": "Project Setup & Research", "Task": "Set up Windsurf board (or chosen PM tool)", "Label": "PM"},
+    {"Sprint": "Sprint 0", "Epic": "Project Setup & Research", "Task": "Finalize tech stack", "Label": "Engineering"},
+    {"Sprint": "Sprint 0", "Epic": "Project Setup & Research", "Task": "Begin dataset curation for culturally inclusive training", "Label": "AI/NLP"},
+
+    {"Sprint": "Sprint 1", "Epic": "User Account & Onboarding", "Task": "Implement email/social login with 2FA", "
