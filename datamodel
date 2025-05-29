@@ -1,0 +1,24 @@
+User
+│
+├───< owns >───► HealthProfile
+│                  │
+│                  ├───< has >───► LanguagePreferences
+│                  ├───< has >───► CulturalPreferences
+│
+├───< initiates >───► Appointments
+│                        │
+│                        ├───< linked_to >───► Providers
+│                        ├───< records >───► Notes
+│                        ├───< has >───► Questions
+│
+├───< uses >───► AdvocacyTools
+│                  ├───< has >───► PromptLibrary
+│                  └───< has >───► BiasAlerts
+│
+├───< owns >───► JournalEntries
+│
+├───< controls >───► ConsentSettings
+│
+└───< logs >───► Interactions (AI conversations, summaries, etc.)
+                       ├───< includes >───► EmotionCheck
+                       └───< tagged_with >───► BiasFlag (optional)
